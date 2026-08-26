@@ -1,0 +1,6 @@
+# dsh-client-ui-file-attach bundle patch: register the composer add-file chip
+# and the attached-files strip. Applied as a profile layer when the package is
+# installed via `dsh plugin --profile web add dsh-client-ui-file-attach`.
+- insert:
+    - id: ui-file-attach
+      name: 'dsh-client-ui-file-attach'
