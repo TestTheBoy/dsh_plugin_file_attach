@@ -39,18 +39,6 @@ lib/index.js          宿主端：/attach-files 命令（recordInput:false）+ a
 lib/client.js         浏览器端 bundle：添加按钮 + 文件名芯片条 + 图片管线 + 宿主同步
 ```
 
-## 发布到 DSH 插件市场
-
-1. **发布 npm**（推荐，市场一般用包名安装）：
-   ```sh
-   npm publish
-   ```
-2. **或托管 GitHub**：把本目录内容推到一个 GitHub 仓库，市场/用户可通过
-   `dsh plugin --profile web add "github:<user>/<repo>"` 安装（本包已预构建，无需 prepare 脚本）。
-3. 在插件市场仓库（如 [dsh-market/dsh-market](https://github.com/dsh-market/dsh-market)、
-   [2BingLing/dsh-market](https://github.com/2BingLing/dsh-market)、
-   [chnjames/dsh-plugin-market](https://github.com/chnjames/dsh-plugin-market)）提交收录 PR/issue，
-   附上本 README 与本包名/仓库地址。
 
 ## 限制
 
